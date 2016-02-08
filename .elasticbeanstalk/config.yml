@@ -1,0 +1,12 @@
+branch-defaults:
+    master:
+        environment: shippableTest-env
+    default:
+        environment: shippableTest-env
+    global:
+        application_name: shippableTest-env
+        default_ec2_keyname: null
+        default_platform: Docker 1.7.1
+        default_region: us-west-2
+        profile: eb-cli
+        sc: git
