@@ -7,7 +7,6 @@ node_js:
 branches:
   only:
     - master
-    - develop
 before_install:
   - SUDO=$(which sudo) && $SUDO apt-get install -y python-dev
   - SUDO=$(which sudo) && $SUDO pip install awsebcli
